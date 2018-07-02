@@ -1,0 +1,25 @@
+#Mission
+{
+	min-height: 100vh;
+	text-align: center;
+	text-align: justify;
+
+}
+
+
+#Mission > .row > .column
+{
+	padding: 5% 5% 2% 5%;
+	color: white;
+}
+
+	#Mission > .row > .column img	
+	{
+		border-radius: 50%;
+		border: 3px solid white;
+		background-color: white;
+		background-position: center;
+	}
+
+
+	

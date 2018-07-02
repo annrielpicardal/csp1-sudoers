@@ -1,0 +1,284 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 1px solid blue;
+}
+
+
+body
+{
+	background-color: dodgerblue;
+}
+
+#banner
+{
+	background-image: url("../img/wall2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+	/*filter: grayscale(100%);*/
+	/*filter: opacity(0.7);*/
+	min-height: 100vh;
+	color: white;
+}
+
+	#video-background {
+	/*  making the video fullscreen  */
+	  position: fixed;
+	  right: 0; 
+	  bottom: 0;
+	  min-width: 100%; 
+	  min-height: 100%;
+	  width: auto; 
+	  height: auto;
+	  z-index: -100;
+	}
+
+	#banner > .row > .column > #bannerContent
+	{
+		top: 50050%;
+		left: 50%;
+		position: absolute;
+		background-color: black;
+		padding: 5% 5%;
+		transform: translate(-50%,-50%);
+		min-width: 100%;
+		min-height: 40vh;
+		opacity: 0.5;
+	}
+
+	#banner > .row > .column > #bannerContent > #myVideo
+	{
+	    position: fixed;
+	    right: 0;
+	    bottom: 0;
+	    min-width: 100%; 
+	    min-height: 100%;
+	}
+
+	#banner > .row > .column > #bannerContent:hover
+	{
+		opacity: 1;
+		transition: 1s;
+	}
+
+#navbar
+{
+	background-color: #282828;
+	min-height: 5vh;
+	color: white;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+	#navbar > .row > .column > ul
+	{
+		text-align: center;
+	}
+
+	#navbar > .row > .column > ul > li
+	{
+		color: white;
+		display: inline-block;
+		text-align: center;
+		padding: 2% 5%;
+	}
+
+	#navbar > .row > .column > ul > li > a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+#services
+{
+	background-color: #282828;
+	min-height: 100vh;
+	color: white;
+}
+
+	#services > .row > .column > #servicesContent
+	{
+		padding: 5% 10% 0 10%;
+	}
+
+	#services > .row > .column > #servicesGrid
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		padding: 5% 5%;
+		grid-gap: 3em;
+	}
+
+	#services > .row > .column > #servicesGrid > .grid
+	{
+		text-align: center;
+	}
+
+	#services > .row > .column > #servicesGrid > .grid img
+	{
+		border: 3px solid	white;
+		border-radius: 50%;
+		background-color: white;
+	}
+
+	#services > .row > .column > #servicesGrid > .grid h4
+	{
+		padding-top: 5%;
+		margin-top: 5%;
+	}
+
+	#services > .row > .column > #servicesGrid > .grid p
+	{
+		text-align: justify;
+		padding: 5%;
+	}
+
+#info1
+{
+	background-image: url("../img/secadmin.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+	#info1 > .row > .column
+	{
+		height: 70vh;
+	}
+
+	#info1 > .row > .column > p
+	{
+		padding: 5% 5%;
+		margin: 0 15% 0 15%;
+		top: 25%;
+		/*left: 50%;*/
+		/*transform: translate(-50%, -50%);*/
+		position: relative;
+		color: white;
+		background-color: black;
+		opacity: 0.7;
+	}
+
+#skills
+{
+	background-color: #282828;
+	min-height: 70vh;
+}
+
+	#skills > .row > .column
+	{
+		padding: 5% 10% 0 10%;
+		color: white;
+	}
+
+	#skills > .row > .column > .skillsGrid
+	{
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		text-align: center;
+		text-align: justify;
+	}
+
+	#skills > .row > .column > .skillsGrid > #sGrid1
+	{
+		grid-row: 1 / 3;
+	}
+
+	#skills > .row > .column > .skillsGrid > .sGrid
+	{
+		margin: auto auto;
+	}
+
+	#skills > .row > .column > .skillsGrid > .sGrid img
+	{
+		border-radius: 50%;
+		background-color: grey;
+	}
+
+	#skills > .row > .column > .skillsGrid > .sGrid img:hover
+	{
+		background-color: white;
+		transition: 1s;
+	}
+
+
+#contacts
+{
+	background-color: dodgerblue;
+	min-height: 60vh;
+}
+
+	#contacts > .row > .column > #ContactInfo
+	{
+		padding: 5% 10% 0 10%;
+		color: white;
+	}
+
+	#contacts > .row > .column > form
+	{
+		margin-left: 20%;
+		margin-top: 10%;
+		color: white;
+	}
+
+	#contacts > .row > .column > a > #map
+	{
+		width: 80%;
+		height: 400px;
+		background-image: url("../img/maps.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+	#contacts > .row > .column > #map:hover
+	{
+		cursor: pointer;
+	}
+
+	#contacts > .row > .column > #socialLinks > ul > li
+	{
+		text-decoration: none;
+		display: inline;
+
+	}
+
+	#contacts > .row > .column > #socialLinks > ul
+	{
+		text-align: center;
+		padding: 5%;
+	}
+
+#footer 
+{
+	background-color: dodgerblue;
+	min-height: 5vh;
+}
+
+	#footer > .row > .column p
+	{
+		text-align: center;
+		color: white;
+	}
+
+	#footer > .row > #Disclaimer
+	{
+		opacity: 0.5;
+		color: white;
+	}
+
+	#footer > .row > #Disclaimer > p > a
+	{
+		opacity: 1;
+		color: black; 
+	}
+
+	#footer > .row > #Disclaimer > p > a:hover
+	{
+		color: white;
+		opacity: 1;
+	}
