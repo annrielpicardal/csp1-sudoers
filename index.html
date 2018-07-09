@@ -4,13 +4,23 @@
 	<meta name="viewport" content="width=device-width ,initial-scale=1.0">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
 
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href ="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	
+	<!-- Import favicon.ico -->
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/tablet.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 <head>
 	<title>Capstone1 - Sudoers</title>
 </head>
@@ -19,16 +29,18 @@
 
 	<main id="banner" class="container-fluid">
 		<div class="row">
-			<div class="column col-sm-12">
+			<div class="column col-lg-12">
+				<!-- <div id="background-wrap">
+					<video id="video-bg-elem" preload="preload" autoplay="autoplay" loop="loop" muted="muted">
+						<source src="assets/img/blue.mp4" type="video/mp4">
+							Video Not Supported
+					</video> 
+				</div> --> <!-- background-wrap -->
+
 				<div id="bannerContent">
-
-					<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
-					<video autoplay loop id="video-background" muted plays-inline>
-					  <source src="https://vimeo.com/133344132" type="video/mp4">
-					</video>
-
 					<h1>Sudoers</h1>
 					<p> Is a term use to call to a group of individual with the highest priviledge on a linux operating system. Most of the information inside the system is accesible to this group. Entrusting all the confidentiality, integrity and availability of the data stored on a computer system. These people are the most trusted Information Technology People that a company possess. You don't want to give the access to someone who doesn't have a knowledge on what he is doing. Even the Vice President</p>
+					
 				</div> <!-- bannerContent -->
 			</div> <!-- column -->
 		</div> <!-- row -->
@@ -36,13 +48,13 @@
 
 	<main id="navbar" class="container-fluid">
 		<div class="row">
-			<div class="column col-sm-12">
+			<div class="column col-lg-12">
 				<ul>
 					<li><a href="#Home">Home</a></li>
-					<li><a href="#Services">Services</a></li>
-					<li><div id="Sudoers"><a href="#Sudoers">Sudoers</a></div></li>
-					<li><a href="#About">About</a></li>
-					<li><a href="#Contact">Contact</a></li>
+					<li><a href="clients.html">Clients</a></li>
+					<li><div id="Sudoers"><a href="home.html">Sudoers</a></div></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="index.html#contacts">Contact</a></li>
 				</ul>
 			</div> <!-- column -->
 		</div> <!-- row -->
@@ -51,44 +63,36 @@
 
 	<main id="services" class="container-fluid">
 		<div class="row">
-			<div class="column col-sm-12">
+			<div class="column col-lg-12">
 				<div id="servicesContent">
 					<h2>What we do</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Addicted to all things creative; infatuated with popular culture; obsessed with delivering measurable results – that's us. We are an award-winning, full-service digital marketing and technology agency known as CreativeMob.</p>
+					<p>We are data-driven and design-led. Our corporate philosophy is one of collaboration, creativity, and original thinking. In our unceasing mission to provide clients with effective business solutions that engage consumers, we meet quantitative and qualitative challenges head-on while adhering to industry standards.</p>
 				</div> <!-- servicesContent -->
 
 				<div id="servicesGrid">
 					<div id="grid1" class="grid">
-						<img src="assets/img/icons2/031-responsive.png" width="150px" height="150px">
+						<img src="assets/img/icons2/031-responsive.png" width="150px" height="150px" class="img-fluid">
 						<h4>Web Development</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Details are important. Aesthetics are important. User experience is important. We hold these principles to be truths, and they drive everything that we do.</p>
 					</div> <!-- grid1 -->
 
 					<div id="grid1" class="grid">
-						<img src="assets/img/icons2/006-laptop-2.png" width="150px" height="150px">
+						<img src="assets/img/icons2/006-laptop-2.png" width="150px" height="150px" class="img-fluid">
 						<h4>Network Management</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Services provided by this discipline include fault analysis, performance management, provisioning of networks and maintaining the quality of service.</p>
 					</div> <!-- grid1 -->
 
 					<div id="grid1" class="grid">
-						<img src="assets/img/icons2/037-server-9.png" width="150px" height="150px">
+						<img src="assets/img/icons2/037-server-9.png" width="150px" height="150px" class="img-fluid">
 						<h4>System Administration</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Responsible for maintaining reliable computers systems in a multi-user environment. In this course, you'll learn about the infrastructure services that keep all organizations, big and small, up and running.</p>
 					</div> <!-- grid1 -->
 
 					<div id="grid1" class="grid">
-						<img src="assets/img/icons2/012-diagram.png" width="150px" height="150px">
+						<img src="assets/img/icons2/012-diagram.png" width="150px" height="150px" class="img-fluid">
 						<h4>IT Services</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Refers to the application of business and technical expertise to enable organizations in the creation, management and optimization of or access to information and business processes.</p>
 					</div> <!-- grid1 -->
 
 				</div> <!-- column -->
@@ -112,56 +116,77 @@
 
 	<main id="skills" class="container-fluid">
 		<div class="row">
-			<div class="column col-sm-12">
-				<div class="skillsGrid">
-					<div id="sGrid1" class="sGrid">
-						<h2>Our Skills</h2>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="column col-lg-12">
+				<div id="sGrid">
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<!-- Web Development -->
+					<div id="sGrid1" class="skillGrid">
+						<img src="assets/img/f-icons/007-cloud-3.png" width="150px" height="150px" class="img-fluid">
 					</div> <!-- sGrid1 -->
 
-					<div id="sGrid2" class="sGrid">
-						<img src="assets/img/icons2/006-laptop-2.png" width="150px" height="150px">
-					</div> <!-- sGrid2 -->
+					<!-- Network Management -->
+					<div id="sGrid2" class="skillGrid">
+						<img src="assets/img/f-icons/011-network.png" width="150px" height="150px" class="img-fluid">
+					</div> <!-- sGrid1 -->
 
-					<div id="sGrid3" class="sGrid">
-						<img src="assets/img/icons2/006-laptop-2.png" width="150px" height="150px">
-					</div> <!-- sGrid2 -->
+					<!-- System Administration -->
+					<div id="sGrid4" class="skillGrid">
+						<img src="assets/img/f-icons/009-folder-4.png" width="150px" height="150px" class="img-fluid">
+					</div> <!-- sGrid1 -->
 
-					<div id="sGrid4" class="sGrid">
-						<img src="assets/img/icons2/006-laptop-2.png" width="150px" height="150px">
-					</div> <!-- sGrid2 -->
+					<!-- IT Services -->
+					<div id="sGrid3" class="skillGrid">
+						<img src="assets/img/f-icons/027-folder-1.png" width="150px" height="150px" class="img-fluid">
+					</div> <!-- sGrid1 -->
 
-					<div id="sGrid5" class="sGrid">
-						<img src="assets/img/icons2/006-laptop-2.png" width="150px" height="150px">
-					</div> <!-- sGrid2 -->
-				</div> <!-- skills Grid -->
+						<div id="sGrid5" class="skillGrid">
+							<h2>Transparent, Collaborative, Communicative</h2>
+							Complete project visibility, working with you to shape the right delivery method and custom solution. Using email, phone, chat, Skype, and Google Hangout for constant communication.
+						</div> <!-- sGrid1 -->
+
+						<div id="sGrid6" class="skillGrid">
+							<h2>Expert Web Designs</h2> 	<br>
+							We have been designing and developing websites and web applications since 2007. Our experts are trained, certified and experienced across a variety of website platforms.
+						</div> <!-- sGrid6 -->
+
+						<div id="sGrid7" class="skillGrid">
+							<h2>Competitive Rates and Project Quotes</h2>
+							Shopping quotes for your next website project or looking to hire an expert? Make sure you get a quote from us! We're known for competitive rates and aggressive project quotes.
+						</div> <!-- sGrid7 -->
+
+						<div id="sGrid8" class="skillGrid">
+							<h2>Reliable, Rapid & Renowned Delivery</h2>
+							Using agile methodology, always keeping you in the loop. Streamlined delivery, cost effective projects, designed to match your goals, timeline and budget.
+						</div> <!-- sGrid8 -->
+
+						<div id="sGrid9" class="skillGrid">
+							WORKING WITH US
+						</div> <!-- sGrid9 -->
+
+					<div id="sGrid10" class="skillGrid">
+						<p>Sudoers works extensively with technology and agency partners to provide our clients with innovative technology solutions. Our technology partners provide hosting and vendor support for open technology solutions. Our solutions partners work with Sudoers to provide integrated marketing and technology solutions to our clients. Sudoers is constantly expanding our partner ecosystem to better serve our clients.</p>
+					</div> <!-- sGrid1 -->
+
+					
+				</div> <!-- sGrid -->
 			</div> <!-- column -->
 		</div> <!-- row -->
 	</main> <!-- skills -->
 
+	<main id="info2">
+		
+	</main> <!-- info2 -->
+
 	<main id="contacts" class="container-fluid">
 		<div class="row">
-			<div class="column col-sm-12">
+			<div class="column col-lg-12">
 				<div id="ContactInfo">
 					<h2>Contact Us</h2>
-					<p>Please send us comments and feedback to enhance our services. <br>You may also send us an email for inquiry and suggestions. We love to hear it from you. Thank you!</p>
+					<p>Please send us comments and feedback to enhance our services. <br><br>You may also send us an email for inquiry and suggestions. We love to hear it from you. Thank you!</p>
 				</div> <!-- ContactInfo -->
 			</div> <!-- column -->
 
-			<div class="column col-sm-6">
+			<div class="column col-lg-6">
 				<form>
 				  <div class="form-group">
 				    <label for="exampleFormControlInput1">Email address</label>
@@ -181,13 +206,13 @@
 				</form>
 			</div> <!-- column6 -->
 
-			<div class="column col-sm-6">
+			<div class="column col-lg-6">
 					<a href="https://www.google.com/maps/place/Tuitt+Incorporated/@14.6368332,121.0460874,15z/data=!4m5!3m4!1s0x3397b7afe6dd8817:0x1301863d86ca644!8m2!3d14.6327701!4d121.0437899" target="_blank"><div id="map"></div></a>
 			</div> <!-- column6 -->
 
 			<hr>
 
-			<div class="column col-sm-12">
+			<div class="column col-lg-12">
 				<div id="socialLinks">
 					<ul>
 						<li><img src="assets/img/smedia/036-facebook.png" width="50px" height="50px"></li>
@@ -202,18 +227,25 @@
 
 	<main id="footer" class="container-fluid">
 		<div class="row">
-			<div class="column col-sm-12" id="Disclaimer">
-				<p>We use cookies on this website. You are free to manage these via your browser settings at any time. For more about how we use cookies, please see our <a href="#PrivacyPolicy">Privacy Policy.</a></p>
+			<div class="column col-lg-12" id="Disclaimer">
+				<p>We use cookies on this website. You are free to manage these via your browser settings at any time. For more about how we use cookies, please see our <a href="privacy.html">Privacy Policy.</a></p>
 			</div> <!-- Disclaimer -->
 
-			<div class="column col-sm-12">
-				<p>All Rights Reserve &copy; 2018 - Picardal,Ayie-L Tuitt Bootcamp 2018 </p>
+			<div class="column col-lg-12">
+				<p>All Rights Reserve &copy; 2018 - Ayie - Tuitt Bootcamp 2018 </p>
 			</div> <!-- column -->
 		</div> <!-- row -->
 	</main> <!-- footer -->
+
+	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  	<script>
+      $(document).ready(function () {
+          // Hide the div
+          $("#bannerContent").hide();
+          // Show the div after 5s
+          $("#bannerContent").delay(1000).slideDown(1100);  
+      });    
+  	</script>
+
 </body>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-
 </html>

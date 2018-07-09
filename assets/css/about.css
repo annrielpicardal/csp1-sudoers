@@ -3,23 +3,63 @@
 	min-height: 100vh;
 	text-align: center;
 	text-align: justify;
-
+	background: linear-gradient(160deg, #282828 50%, dodgerblue 50%);
 }
 
 
 #Mission > .row > .column
 {
-	padding: 5% 5% 2% 5%;
+	padding: 5% 10% 2% 10%;
 	color: white;
 }
 
-	#Mission > .row > .column img	
-	{
-		border-radius: 50%;
-		border: 3px solid white;
-		background-color: white;
-		background-position: center;
-	}
+#Mission > .row > .column > #about-hr
+{
+	border-top: 2px dashed white;
+	margin: 0 30%;
 
+}
 
+#Mission > .row > .column > #mobs
+{
+	text-align: center;
+}
+
+#Mission > .row > .column > img
+{
+	border-radius: 50%;
+	border: 20px solid #282828;
+}
+
+#Mission > .row > #ourTeam
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 0 10% 10%;
+}
+
+#Mission > .row > #ourTeam > .team
+{
+	text-align: center;
+}
+#Mission > .row > #ourTeam > .team > p 
+{
+	text-align: justify;
+	padding: 2% 10%;
+}
+
+#Mission > .row > #ourTeam > .team > img
+{
+	border-radius: 50%;
 	
+}
+
+#Mission > .row > #ourTeam > .team > h2
+{
+	padding: 5% 0;
+}
+
+#footer
+{
+	padding-top: 10%:;
+}

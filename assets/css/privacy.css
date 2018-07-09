@@ -1,0 +1,34 @@
+#privacyBanner
+{
+	background-image: url("../img/dataprivacy.png");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	/*background-position: center;*/
+	min-height: 40vh;
+}
+
+#privacy
+{
+	min-height: 100vh;
+	color: white;
+}
+
+	#privacy > .row > .column > #pContent
+	{
+		color: white;
+	}
+
+	#privacy > .row > .column > #pContent h2
+	{
+		padding: 5%;
+	}
+
+	#privacy > .row > .column > #pContent p
+	{
+		word-wrap: break-word;
+		padding: 2% 5%;
+		font-family: 'Roboto', sans-serif;
+		opacity: 0.8;
+	}

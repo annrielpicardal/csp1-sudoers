@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1.0">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	
+	<!-- Import favicon.ico -->
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/tablet.css">
+
+<head>
+	<title>Capstone1 - Sudoers</title>
+</head>
+<body>
+	
+	<div id="bg-video" class="container-fluid">
+		<div class="row">
+			<div class="column col-sm-12">
+				<div id="background-wrap">
+					<video id="video-bg-elem" preload="preload" autoplay="autoplay" loop="loop" muted="muted">
+						<source src="assets/img/blueparticles.mp4" type="video/mp4">
+							Video Not Supported
+					</video> <!-- video -->
+				</div> <!-- background-wrap -->
+			</div> <!-- column -->
+
+			<div id="homeContent">
+					<h1>SUDOERS</h1>
+					<p>Powered by Intelligent driven Values</p>
+					<button id="button"><a href="index.html">Let's Start <i class="fas fa-arrow-alt-circle-right"></a></i></button>
+				</div> <!-- homeContent -->
+		</div> <!-- row -->
+	</div> <!-- bgvideo -->
+
+	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  	<script>
+      $(document).ready(function () {
+          // Hide the div
+          $("#homeContent").hide();
+          // Show the div after 5s
+          $("#homeContent").delay(3000).fadeIn(1000);  
+      });    
+  	</script>
+</body>
+</html>
